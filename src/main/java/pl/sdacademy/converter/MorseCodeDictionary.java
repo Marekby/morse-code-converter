@@ -3,7 +3,7 @@ package pl.sdacademy.converter;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-class MorseCodeDictionary {
+public class MorseCodeDictionary {
 
     private final static Map<String, String> map = Map.ofEntries(
             Map.entry(".-", "A"),
